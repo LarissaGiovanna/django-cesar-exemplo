@@ -8,3 +8,6 @@
 - `django-admin startproject project .` -> cria uma pasta chamada project que contem arquivos de configurações do projeto
 - `py manage.py runserver` -> inicia o servidor web 
 - `py manage.py startapp "nome_do_app"` -> cria uma pasta com os arquivos do arquivo do projeto/app
+- `py manage.py migrate` -> implementa/migra/atualiza os scripts do app 
+- `py manage.py makemigrations forum` -> cria scirpts/models para a base do banco de dados
+- `py manage.py sqlmigrate forum 0001` -> mostra os comandos sql da tabela que sera criada para esse banco de dados
