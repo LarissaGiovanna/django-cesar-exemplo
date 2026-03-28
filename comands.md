@@ -1,6 +1,6 @@
 #### Quando clonar este repositorio:
 - `py -m venv .venv` -> criar um ambiente virtual (apenas uma vez na criação)
-- `.venv\scripts\activate` -> ativar o ambiente virtual (toda vez que for inicializar o projeto)
+- `.venv\scripts\activate`(windows powershell) ou `source .venv/Scripts/activate`(git bash) -> ativar o ambiente virtual (toda vez que for inicializar o projeto)
 - `py manage.py migrate` -> implementa/migra/atualiza os scripts do app 
 - `py manage.py createsuperuser` -> cria um novo super user/admin
 - `py manage.py runserver` -> inicia o servidor web 
