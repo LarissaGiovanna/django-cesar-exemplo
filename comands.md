@@ -19,6 +19,7 @@
 - `py manage.py makemigrations forum` -> cria scirpts/models para a base do banco de dados
 - `py manage.py sqlmigrate forum 0001` -> mostra os comandos sql da tabela que sera criada para esse banco de dados
 - `py manage.py shell` -> abre um shell/terminal do django
+- `py manage.py collectstatic` -> busca e acessa os arquivos css (estaticos) quando estao em ambiente de produção
 #### no shell:
 - `forum forum.models import Pergunta, Resposta` ->importa as Perguntas e as respostas para a manipulação
 - `forum django.utils import timezone` ->importa a biblioteca da data e hora
